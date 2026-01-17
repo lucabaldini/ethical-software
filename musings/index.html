@@ -1,0 +1,825 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Musings - Ethical Software</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#some-random-thoughts" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Ethical Software" class="md-header__button md-logo" aria-label="Ethical Software" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ethical Software
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Musings
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Ethical Software" class="md-nav__button md-logo" aria-label="Ethical Software" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Ethical Software
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Musings
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Musings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-rise-of-the-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The rise of the algorithm
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The rise of the algorithm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planet-deliveria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Planet Deliveria
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#euclid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Euclid
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-as-in-free-speech" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free as in free speech
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#source-code-and-machine-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Source code and machine code
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#licenses-why-should-i-care" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Licenses: why should I care?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-does-software-applies-to" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What does software applies to?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-software-is-it-any-good" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free software: is it any good?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-neutrality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web neutrality
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-and-it-infrastructures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software and IT infrastructures
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#privacy-in-the-times-of-social-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Privacy in the times of social media
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information-in-the-times-of-social-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Information in the times of social media
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-rise-of-the-algorithm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The rise of the algorithm
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The rise of the algorithm">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planet-deliveria" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Planet Deliveria
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#euclid" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Euclid
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-as-in-free-speech" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free as in free speech
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#source-code-and-machine-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Source code and machine code
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#licenses-why-should-i-care" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Licenses: why should I care?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-does-software-applies-to" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What does software applies to?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#free-software-is-it-any-good" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Free software: is it any good?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-neutrality" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web neutrality
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#software-and-it-infrastructures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software and IT infrastructures
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#privacy-in-the-times-of-social-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Privacy in the times of social media
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information-in-the-times-of-social-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Information in the times of social media
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="some-random-thoughts">Some random thoughts<a class="headerlink" href="#some-random-thoughts" title="Permanent link">&para;</a></h1>
+<p>This is a collection of semi-random (but interconnected) topics and thoughts
+that might be amenable to contribute shaping up a public-engagement event
+on the general subject of <em>ethical software</em>.</p>
+<h2 id="the-rise-of-the-algorithm">The rise of the algorithm<a class="headerlink" href="#the-rise-of-the-algorithm" title="Permanent link">&para;</a></h2>
+<p>In a world where the word <em>algorithm</em> is literally ubiquitous, and the very
+concept seems to be elevated to the status os a Hobbesian Leviathan that is
+controlling each single aspect of our lives, it might be worth reminding that
+there isn't really anything particularly hard to grasp in the thing.</p>
+<p>Algorithm: <em>a procedure for solving a mathematical problem (as of finding the
+greatest common divisor) in a finite number of steps that frequently involves
+repetition of an operation.</em> (Source:
+<a href="https://www.merriam-webster.com/dictionary/algorithm">Merriam-Webster</a>)</p>
+<p>This is it. Really. In fact the concept of algorithm is germane to that of
+a cooking recipe, in that the latter is basically explaining you step by step
+how to turn a whole bunch of seemingly unrelated ingredients into your
+favorite dish. (Well, I will give you that you cannot really push this analogy
+<em>too</em> far. For one thing recipes are for humans, and they are almost never
+as precise as you would expect an actual algorithm to be, as there is a lot
+of common context that comes into play when cooking. But bear with me for
+a moment, as the analogy is good enough to illustrate the point I am getting
+to.)</p>
+<h3 id="planet-deliveria">Planet Deliveria<a class="headerlink" href="#planet-deliveria" title="Permanent link">&para;</a></h3>
+<p>Now imagine for a second living on a different planet in which cookbooks and
+online recipes do not exist. (To make things more dramatic we shall call this
+planet Deliveria.) Life on Deliveria proceeds pretty much like on the Earth,
+except that, when it comes to eating, all the production has been centralized
+in a small number of <em>certified</em> big companies that run physical restaurants
+and catering services. Sure enough, you can go eat in you favorite place or
+get food delivered home, but houses come without kitchens. You would't know
+what to do with one anyway, as all the recipes are kept secret in the hands
+of three or four <em>"Big Cook"</em> companies. And people are explicitly forbidden
+by the government from cooking for security reasons.</p>
+<p><img alt="Deliveria" src="../images/deliveria.png" /></p>
+<p><em>Generated by ChatGPT image generator 4o.</em></p>
+<p>On a closer look, things are even worst. Whenever one of the Big Cook comes
+up with a new recipe, things are setup so that they can file for a patent and
+prevent any other company from cooking the same thing without explicit
+permission. (In practice the few Big Cook companies are pretty forgiving with
+each other, and the main practical implication of this setup is that the entry
+barrier for new companies is pretty high, but this is bringing us on a tangent,
+so let's leave it at that.)</p>
+<p>I know, I know. If you are thinking that all of this is pretty silly, I am
+with you. You don't <em>really</em> see any of this happening, and neither do I.
+One of the main reasons why planet Deliveria is an unlikely setting is that
+cooking is relatively easy and recipes are not really hard to
+<em>reverse-engineer</em> (keep this expression in mind as we shall go back to it)
+and teach someone else. Even in situation in which the government was actively
+trying to perpetuate the status quo, it wouldn't probably take much time
+for a variegate black market to flourish. And yet I am sure everybody can
+see some scary resemblance with our fellow planet Earth, and maybe we can
+make things more realistic in a slightly different context.</p>
+<h3 id="euclid">Euclid<a class="headerlink" href="#euclid" title="Permanent link">&para;</a></h3>
+<p>Roll back to c. 300 BC in Alexandria (Egypt), Euclid's elements describe
+what is believed to be the first algorithm historically documented in western
+literature that continues to be relevant to date: the Euclidean algorithm to
+find the greatest common divisor between two numbers.</p>
+<p><img alt="Euclid Inc." src="../images/euclid_gcd.png" /></p>
+<p><em>Generated by ChatGPT image generator 4o.</em></p>
+<p>I am not a mathematician, and certainly not ah historian of science, so I
+cannot tell for sure whether this can be considered a discontinuity in the
+development of arithmetics---one of those discoveries that literally change
+the line of events. It's also almost certain that the formulation of the
+algorithm is not to be credited to to Euclid himself, but I think it is fair
+to say this was a <em>big</em> thing at the time, and we'll just leave it at that.</p>
+<p>Now let's pretend for a second we are in the <em>Back to the future</em> movie and
+we are free to explore alternative timelines. Let's imagine that Euclid,
+instead of publishing the <em>Elements</em>, walks out of his house and hangs to
+the wall overlooking the street a huge, flamboyant billboard reading:</p>
+<p><em>Magic papyrus scrolls for sale! You write two numbers and their greatest
+common divisor appears immediately below in seconds.
+Award-winning technology, money back guaranteed.</em></p>
+<p>And maybe the fine prints, just below:</p>
+<p><em>Patent pending. (C) Euclid Inc., all rights reserved.</em></p>
+<p>Extrapolating 2300 years in time is far from trivial, but I do believe it is
+fair to say that we would live in a very different world today. This is not
+how hard sciences progressed over the history of human kind. On the contrary:
+scientific research thrived over pillars such as the idea of free exchange
+of information, being able to build upon everybody else's achievements and
+giving proper credit to people by simply citing the relevant sources. I will
+not deny that the process is not perfect and, as all human things, is subject
+to hiccups (and even manipulation), but all in all this is what gave us a
+number of beautiful things such as: a language with which we can describe
+Nature (mathematics), quantum mechanics (upon which all modern electronic
+devices are deeply rooted), computers and the world wide web.</p>
+<p>This is not to say that there is something intrinsically wrong in monetizing
+you work, if this is what floats your boat. The real point is that there is
+at least another way of doing business, which proved beyond any reasonable
+doubt to be effective. The question, then, is really which one is more
+effective in any given situation. And yet this is a consideration that seems
+more and more overlooked, as we accept compromises and limitations of our
+freedom in specific contexts that, when translated verbatim in slightly
+different situation would not pass the laugh test.</p>
+<p>We shall try and elaborate more on this very topic in the remaining of this
+section.</p>
+<h2 id="free-as-in-free-speech">Free as in free speech<a class="headerlink" href="#free-as-in-free-speech" title="Permanent link">&para;</a></h2>
+<p>The four freedoms.</p>
+<p>Free software vs. open source [Stallman, chapter 6]</p>
+<h2 id="source-code-and-machine-code">Source code and machine code<a class="headerlink" href="#source-code-and-machine-code" title="Permanent link">&para;</a></h2>
+<p>Source code, machine code, reverse engineering.</p>
+<h2 id="licenses-why-should-i-care">Licenses: why should I care?<a class="headerlink" href="#licenses-why-should-i-care" title="Permanent link">&para;</a></h2>
+<p>Copyleft. Licenses. (Software patents?)</p>
+<h2 id="what-does-software-applies-to">What does software applies to?<a class="headerlink" href="#what-does-software-applies-to" title="Permanent link">&para;</a></h2>
+<p>In the old days, when you bought something, it was yours. Period.
+Nowadays this is not necessarily the case, anymore, and the line tends to
+get more and more blurred.</p>
+<p>There is a famous story in free software folklore about the paradoxical
+situation of a farmer who buys a tractor (and maybe a very expensive one)
+and then, in the unfortunate event that something breaks, they cannot
+repair it themselves <em>even if they had the technical ability</em>, just because
+the manufacturer dictates that they have to resort to an authorized
+workshop. Clearly, this is somewhat germane to the situation where you buy
+a computer but the warranty conditions prevent you from modifying the
+operating system.
+(And the story is actually more than just folklore, as the
+<img alt="John Deere vs. farmers" src="https://www.bbc.com/news/business-64206913" />
+case nicely illustrates.)</p>
+<p>I have to say I never really resonated with the farmer and tractor story
+myself. That might be due to my high-school reminiscences of Stalin's
+agricultural reform of the 1930s failing due to the lack of technical
+expertise of the farmers. (Which is, obviously, also an oversimplification
+and largely folklore in itself.)</p>
+<p><img alt="Smart car" src="../images/smart_car.png" /></p>
+<p><em>Generated by ChatGPT image generator 4o.</em></p>
+<p>Then last year me and my wife decided to replace our 13-years old car with
+a brand new full-electric car. Boy this was shocking! The thing is basically
+a smartphone on four wheels. Now I <em>do</em> start to get it. Tech oriented as I
+am, my immediate desire to have the root password for the car stumbles
+upon what are undoubtedly legitimate questions. I guess I would do no harm
+by customizing the entertainment system, but shall I be allowed to tinker
+with the braking system of the car? Or with the battery? And then, if
+something tragic happens, who is responsible? This is a very difficult
+problem, and one to which I honestly have no good answer.</p>
+<p>But if now you remove the wheels from the smartphone, I am back into the
+"very strong feelings" mode. This is why I was shocked to hear that
+starting from  late 2026, <em>apps sideloaded onto certified Android devices must
+come from developers who have completed Google's identity verification
+process</em>. [Put a reference.] Wait a minute! I got myself a smartphone, paid
+for it, and cannot upload to it my little hobby app without going through
+the google app store? That, in all honesty, seems like a stretch, indicating
+that we have reached the point where the power of the big companies is so
+pervasive that we effectively don't own things anymore in the traditional
+sense.</p>
+<h2 id="free-software-is-it-any-good">Free software: is it any good?<a class="headerlink" href="#free-software-is-it-any-good" title="Permanent link">&para;</a></h2>
+<p>Did you know that free software is running the web?</p>
+<h2 id="web-neutrality">Web neutrality<a class="headerlink" href="#web-neutrality" title="Permanent link">&para;</a></h2>
+<h2 id="software-and-it-infrastructures">Software and IT infrastructures<a class="headerlink" href="#software-and-it-infrastructures" title="Permanent link">&para;</a></h2>
+<h2 id="privacy-in-the-times-of-social-media">Privacy in the times of social media<a class="headerlink" href="#privacy-in-the-times-of-social-media" title="Permanent link">&para;</a></h2>
+<h2 id="information-in-the-times-of-social-media">Information in the times of social media<a class="headerlink" href="#information-in-the-times-of-social-media" title="Permanent link">&para;</a></h2>
+<p>Fake news. Social media as echo chambers.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2026 Luca Baldini. Content licensed under CC BY 4.0.
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.expand", "content.code.copy", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
