@@ -22,4 +22,8 @@ extra_javascript:
 
 nav:
   - Home: index.md
+  - Musings: musings.md
 
+copyright: >
+  © 2026 Luca Baldini.
+  Content licensed under CC BY 4.0.

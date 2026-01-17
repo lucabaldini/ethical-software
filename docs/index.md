@@ -1,17 +1,23 @@
-# Welcome to MkDocs
+# Ethical Software @ UNIPI
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This in an experimental page to collect ideas, discussions and resources
+about ethical software.
 
-## Commands
+!!! warning
+    This is just a stub. It might very well go nowhere.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## About us
 
-## Project layout
+We are a group of students, technicians and stuff at the
+[University of Pisa](https://www.unipi.it/).
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
+## Topics
+
+- [Musings](musings.md)
+
+
+## License
+
+Unless otherwise noted, the written content of this site is licensed under
+the Creative Commons Attribution 4.0 International License (CC BY 4.0).
