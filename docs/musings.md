@@ -92,7 +92,11 @@ the wall overlooking the street a huge, flamboyant billboard reading:
 common divisor appears immediately below in seconds.
 Award-winning technology, money back guaranteed.*
 
-And maybe the fine prints, just below:
+(I am assuming Euclid would use papyrus scrolls, as the library of Alexandria,
+the largest of the antique western world, is know to have been home to about
+100,000 of them at its maximum splendor---can you imagine that?)
+
+And maybe the billboard contained in fine prints, just below:
 
 *Patent pending. (C) Euclid Inc., all rights reserved.*
 
