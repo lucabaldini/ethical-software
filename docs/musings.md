@@ -157,7 +157,7 @@ workshop. Clearly, this is somewhat germane to the situation where you buy
 a computer but the warranty conditions prevent you from modifying the
 operating system.
 (And the story is actually more than just folklore, as the
-![John Deere vs. farmers](https://www.bbc.com/news/business-64206913)
+[John Deere vs. farmers](https://www.bbc.com/news/business-64206913)
 case nicely illustrates.)
 
 I have to say I never really resonated with the farmer and tractor story
