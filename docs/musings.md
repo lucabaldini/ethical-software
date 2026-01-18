@@ -9,7 +9,7 @@ on the general subject of *ethical software*.
 ## The rise of the algorithm
 
 In a world where the word *algorithm* is literally ubiquitous, and the very
-concept seems to be elevated to the status os a Hobbesian Leviathan that is
+concept seems to be elevated to the status of a Hobbesian Leviathan that is
 controlling each single aspect of our lives, it might be worth reminding that
 there isn't really anything particularly hard to grasp in the thing.
 
